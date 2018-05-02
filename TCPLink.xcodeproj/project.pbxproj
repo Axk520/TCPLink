@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46266B43209962DC0094ECF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46266B42209962DC0094ECF0 /* AppDelegate.m */; };
+		46266B46209962DC0094ECF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46266B45209962DC0094ECF0 /* ViewController.m */; };
+		46266B49209962DC0094ECF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46266B47209962DC0094ECF0 /* Main.storyboard */; };
+		46266B4B209962DE0094ECF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46266B4A209962DE0094ECF0 /* Assets.xcassets */; };
+		46266B4E209962DE0094ECF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46266B4C209962DE0094ECF0 /* LaunchScreen.storyboard */; };
+		46266B51209962DE0094ECF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46266B50209962DE0094ECF0 /* main.m */; };
+		46266B5B209962DE0094ECF0 /* TCPLinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46266B5A209962DE0094ECF0 /* TCPLinkTests.m */; };
+		46266B66209962DE0094ECF0 /* TCPLinkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46266B65209962DE0094ECF0 /* TCPLinkUITests.m */; };
+		46266B75209962FD0094ECF0 /* TCPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 46266B74209962FC0094ECF0 /* TCPClient.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46266B57209962DE0094ECF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46266B36209962DC0094ECF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46266B3D209962DC0094ECF0;
+			remoteInfo = TCPLink;
+		};
+		46266B62209962DE0094ECF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46266B36209962DC0094ECF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46266B3D209962DC0094ECF0;
+			remoteInfo = TCPLink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46266B3E209962DC0094ECF0 /* TCPLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCPLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46266B41209962DC0094ECF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		46266B42209962DC0094ECF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		46266B44209962DC0094ECF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		46266B45209962DC0094ECF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		46266B48209962DC0094ECF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46266B4A209962DE0094ECF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46266B4D209962DE0094ECF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46266B4F209962DE0094ECF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46266B50209962DE0094ECF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46266B56209962DE0094ECF0 /* TCPLinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCPLinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46266B5A209962DE0094ECF0 /* TCPLinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPLinkTests.m; sourceTree = "<group>"; };
+		46266B5C209962DE0094ECF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46266B61209962DE0094ECF0 /* TCPLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCPLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46266B65209962DE0094ECF0 /* TCPLinkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCPLinkUITests.m; sourceTree = "<group>"; };
+		46266B67209962DE0094ECF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46266B73209962FC0094ECF0 /* TCPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCPClient.h; sourceTree = "<group>"; };
+		46266B74209962FC0094ECF0 /* TCPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCPClient.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46266B3B209962DC0094ECF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46266B53209962DE0094ECF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46266B5E209962DE0094ECF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46266B35209962DC0094ECF0 = {
+			isa = PBXGroup;
+			children = (
+				46266B40209962DC0094ECF0 /* TCPLink */,
+				46266B59209962DE0094ECF0 /* TCPLinkTests */,
+				46266B64209962DE0094ECF0 /* TCPLinkUITests */,
+				46266B3F209962DC0094ECF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46266B3F209962DC0094ECF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46266B3E209962DC0094ECF0 /* TCPLink.app */,
+				46266B56209962DE0094ECF0 /* TCPLinkTests.xctest */,
+				46266B61209962DE0094ECF0 /* TCPLinkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46266B40209962DC0094ECF0 /* TCPLink */ = {
+			isa = PBXGroup;
+			children = (
+				46266B41209962DC0094ECF0 /* AppDelegate.h */,
+				46266B42209962DC0094ECF0 /* AppDelegate.m */,
+				46266B44209962DC0094ECF0 /* ViewController.h */,
+				46266B45209962DC0094ECF0 /* ViewController.m */,
+				46266B73209962FC0094ECF0 /* TCPClient.h */,
+				46266B74209962FC0094ECF0 /* TCPClient.m */,
+				46266B47209962DC0094ECF0 /* Main.storyboard */,
+				46266B4A209962DE0094ECF0 /* Assets.xcassets */,
+				46266B4C209962DE0094ECF0 /* LaunchScreen.storyboard */,
+				46266B4F209962DE0094ECF0 /* Info.plist */,
+				46266B50209962DE0094ECF0 /* main.m */,
+			);
+			path = TCPLink;
+			sourceTree = "<group>";
+		};
+		46266B59209962DE0094ECF0 /* TCPLinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				46266B5A209962DE0094ECF0 /* TCPLinkTests.m */,
+				46266B5C209962DE0094ECF0 /* Info.plist */,
+			);
+			path = TCPLinkTests;
+			sourceTree = "<group>";
+		};
+		46266B64209962DE0094ECF0 /* TCPLinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46266B65209962DE0094ECF0 /* TCPLinkUITests.m */,
+				46266B67209962DE0094ECF0 /* Info.plist */,
+			);
+			path = TCPLinkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46266B3D209962DC0094ECF0 /* TCPLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46266B6A209962DE0094ECF0 /* Build configuration list for PBXNativeTarget "TCPLink" */;
+			buildPhases = (
+				46266B3A209962DC0094ECF0 /* Sources */,
+				46266B3B209962DC0094ECF0 /* Frameworks */,
+				46266B3C209962DC0094ECF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCPLink;
+			productName = TCPLink;
+			productReference = 46266B3E209962DC0094ECF0 /* TCPLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46266B55209962DE0094ECF0 /* TCPLinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46266B6D209962DE0094ECF0 /* Build configuration list for PBXNativeTarget "TCPLinkTests" */;
+			buildPhases = (
+				46266B52209962DE0094ECF0 /* Sources */,
+				46266B53209962DE0094ECF0 /* Frameworks */,
+				46266B54209962DE0094ECF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46266B58209962DE0094ECF0 /* PBXTargetDependency */,
+			);
+			name = TCPLinkTests;
+			productName = TCPLinkTests;
+			productReference = 46266B56209962DE0094ECF0 /* TCPLinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46266B60209962DE0094ECF0 /* TCPLinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46266B70209962DE0094ECF0 /* Build configuration list for PBXNativeTarget "TCPLinkUITests" */;
+			buildPhases = (
+				46266B5D209962DE0094ECF0 /* Sources */,
+				46266B5E209962DE0094ECF0 /* Frameworks */,
+				46266B5F209962DE0094ECF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46266B63209962DE0094ECF0 /* PBXTargetDependency */,
+			);
+			name = TCPLinkUITests;
+			productName = TCPLinkUITests;
+			productReference = 46266B61209962DE0094ECF0 /* TCPLinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46266B36209962DC0094ECF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "66-admin";
+				TargetAttributes = {
+					46266B3D209962DC0094ECF0 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					46266B55209962DE0094ECF0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 46266B3D209962DC0094ECF0;
+					};
+					46266B60209962DE0094ECF0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 46266B3D209962DC0094ECF0;
+					};
+				};
+			};
+			buildConfigurationList = 46266B39209962DC0094ECF0 /* Build configuration list for PBXProject "TCPLink" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46266B35209962DC0094ECF0;
+			productRefGroup = 46266B3F209962DC0094ECF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46266B3D209962DC0094ECF0 /* TCPLink */,
+				46266B55209962DE0094ECF0 /* TCPLinkTests */,
+				46266B60209962DE0094ECF0 /* TCPLinkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46266B3C209962DC0094ECF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46266B4E209962DE0094ECF0 /* LaunchScreen.storyboard in Resources */,
+				46266B4B209962DE0094ECF0 /* Assets.xcassets in Resources */,
+				46266B49209962DC0094ECF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46266B54209962DE0094ECF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46266B5F209962DE0094ECF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46266B3A209962DC0094ECF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46266B75209962FD0094ECF0 /* TCPClient.m in Sources */,
+				46266B46209962DC0094ECF0 /* ViewController.m in Sources */,
+				46266B51209962DE0094ECF0 /* main.m in Sources */,
+				46266B43209962DC0094ECF0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46266B52209962DE0094ECF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46266B5B209962DE0094ECF0 /* TCPLinkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46266B5D209962DE0094ECF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46266B66209962DE0094ECF0 /* TCPLinkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46266B58209962DE0094ECF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46266B3D209962DC0094ECF0 /* TCPLink */;
+			targetProxy = 46266B57209962DE0094ECF0 /* PBXContainerItemProxy */;
+		};
+		46266B63209962DE0094ECF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46266B3D209962DC0094ECF0 /* TCPLink */;
+			targetProxy = 46266B62209962DE0094ECF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46266B47209962DC0094ECF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46266B48209962DC0094ECF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46266B4C209962DE0094ECF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46266B4D209962DE0094ECF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46266B68209962DE0094ECF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		46266B69209962DE0094ECF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46266B6B209962DE0094ECF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TCPLink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.66rpg.TCPLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46266B6C209962DE0094ECF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TCPLink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.66rpg.TCPLink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46266B6E209962DE0094ECF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TCPLinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.66rpg.TCPLinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCPLink.app/TCPLink";
+			};
+			name = Debug;
+		};
+		46266B6F209962DE0094ECF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TCPLinkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.66rpg.TCPLinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCPLink.app/TCPLink";
+			};
+			name = Release;
+		};
+		46266B71209962DE0094ECF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TCPLinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.66rpg.TCPLinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TCPLink;
+			};
+			name = Debug;
+		};
+		46266B72209962DE0094ECF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TCPLinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.66rpg.TCPLinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TCPLink;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46266B39209962DC0094ECF0 /* Build configuration list for PBXProject "TCPLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46266B68209962DE0094ECF0 /* Debug */,
+				46266B69209962DE0094ECF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46266B6A209962DE0094ECF0 /* Build configuration list for PBXNativeTarget "TCPLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46266B6B209962DE0094ECF0 /* Debug */,
+				46266B6C209962DE0094ECF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46266B6D209962DE0094ECF0 /* Build configuration list for PBXNativeTarget "TCPLinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46266B6E209962DE0094ECF0 /* Debug */,
+				46266B6F209962DE0094ECF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46266B70209962DE0094ECF0 /* Build configuration list for PBXNativeTarget "TCPLinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46266B71209962DE0094ECF0 /* Debug */,
+				46266B72209962DE0094ECF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46266B36209962DC0094ECF0 /* Project object */;
+}
